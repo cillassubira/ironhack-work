@@ -1,0 +1,11 @@
+<h2><%= session[:name].capitalize %> choose one of our courses!</h2>
+<table>
+<% @courses.each do |course| %>
+  <tr>
+    <td><%= course[:name] %> 
+    <form action="/show_courses" method="POST">
+      <button type="submit" name="id_course" value="<%= course[:id] %>" >Enroll!</button></td>
+    </form>
+  </tr>
+<% end %>
+</table>
