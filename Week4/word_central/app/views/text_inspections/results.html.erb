@@ -1,0 +1,13 @@
+<h1>Total results:</h1>
+<p>The total number of words is <%= @word_count %> and it will take you <%= @min_reading %> min to read them all!</p>
+<table>
+<% @sorted_frequency.each do |key, value| %>
+  <tr>
+    <td>Word:</td>
+    <td><%= key %></td>
+    <td>Times in the text:</td>
+    <td><%= value %></td>
+  </tr>
+<% end %>
+</table>
+<a href="/">Go Home</a>
