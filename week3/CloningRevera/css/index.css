@@ -1,0 +1,156 @@
+.row{
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.menu {
+	height: 90px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.menu h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin margin-left: 0;
+  font-size: 32px;
+	font-weight: 900;
+}
+
+.menu-tab {
+	width: 115px;
+}
+
+.menu-tab2 {
+	width: 85px;
+}
+
+.firstimage{
+	width: 100%;
+	height: 550px;
+}
+
+.col-sm-8 {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+  z-index: 50;
+  color: white;
+  text-align: center;
+}
+
+.firstchoice {
+	background: #ff4d4d;
+	text-align: center;
+	color: white;
+	height: 300px;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	border-top: 5px solid #ff5c33;
+	border-bottom: 5px solid #ff5c33;
+}
+
+.projects {
+	margin-bottom: 40px;
+}
+
+.projects h5 {
+	text-align: center;
+}
+
+.articles {
+	margin-bottom: 40px;
+}
+
+.articles h3 {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.articles h4 {
+	color:#999999;
+	font-size: 12px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.articles p {
+	color:#777777;
+}
+
+.headliner-articles {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.headliner-articles h2 {
+	font-weight: 900;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.headliner-articles h3 {
+	color:#999999;
+	font-size: 14px;
+	font-weight: 900;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.lastinfo {
+  background: #353535;
+  color: #aaa;
+  border-top: 5px solid #ff4d4d;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.lastinfo h3 {
+ color: white;
+ font-size: 16px;
+ margin-bottom: 20px;
+}
+
+.footer {
+	background: #252525;
+	color: white;
+	height: 80px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+.footer p {
+	font-size: 12px;
+	margin: 0px 0 3px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #555555; 
+}
+
+span {
+  font-size: 20px;
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+
+
+
