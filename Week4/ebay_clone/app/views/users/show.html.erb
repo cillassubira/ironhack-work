@@ -1,0 +1,9 @@
+<h1><%= @user.name %>:</h1>
+<p>Contact info: <%= @user.email %></p>
+<p>Created at: <%= @user.created_at %></p>
+	<% @products.each do |product| %>
+	<li>
+		<%= link_to "#{product.title}", user_product_path(@user, product) %>
+	</li>
+	<% end %>
+<%= link_to "Back", users_path %>
