@@ -1,0 +1,15 @@
+<div class="list-group">
+	<div class="list-group-item">
+    	<h4 class="list-group-item-heading">Check what people think about it:</h4>
+ 	</div>
+	<% @comments.each do |comment| %>
+  	<div class="list-group-item">
+    	   <h4 class="list-group-item-heading"><%= comment.commentator %></h4>
+    		<p class="list-group-item-text"><%= comment.comment %></p>
+    		<p class="list-group-item-date">Posted on: <%= comment.created_at %></p>
+ 	</div>
+ 	<% end %>
+ 	<div class="list-group-item">
+    		<p class="list-group-item-addcomment"><%= link_to "Add a new comment >", new_concert_comment_path(@concert) %></p>
+ 	</div>		
+</div>

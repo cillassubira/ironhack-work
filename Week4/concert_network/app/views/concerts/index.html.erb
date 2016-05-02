@@ -1,0 +1,31 @@
+<div class='container'>
+	<div class= 'row'>
+		<div class="col-md-8">
+			<h1>Check next concerts TODAY!</h1>
+			<ul>
+			<% concerts_today(@concerts).each do |concert| %>
+				<li><%= link_to "#{concert.artist}", concert_path(concert.id)%>
+				at <%= concert.venue %>
+				in <%= concert.city %></li>
+			<% end %>
+			</ul>
+			<%= link_to "Add Concert", new_concert_path %>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">This month:</h3>
+  				</div>
+  				<div class="panel-body">
+  					<ul>
+						<% concerts_this_month(@concerts).each do |concert| %>
+							<li><%= link_to "#{concert.artist}", concert_path(concert.id)%> 
+							in <%= concert.city %></li>
+						<% end %>
+					</ul>
+  				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

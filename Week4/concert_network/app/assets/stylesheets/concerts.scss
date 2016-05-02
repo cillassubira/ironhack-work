@@ -1,0 +1,67 @@
+// Place all the styles related to the concerts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-color: #DBE4EE;
+	padding-bottom: 60px;
+}
+
+.image-brand {
+	height: 50px;
+	width: 50px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+.navbar-default{
+	background-color: #77A6B6;
+}
+
+.navbar-header {
+	height: 70px;
+}
+
+.container-fluid{
+	height: 60px;
+}
+.navbar-default{
+	margin-bottom: 10px;
+}
+
+.title-header{
+	width: 350px;
+}
+
+.panel{
+	margin-top: 20px;
+}
+
+.panel-default>.panel-heading{
+	background-color: #D0EFB1;
+}
+
+span.bold-title {
+    font-weight: bold;
+}
+
+.back-link{
+	margin-left: 20px;
+}
+
+.list-group-item-date{
+	text-align: right;
+	font-size: 10px;
+}
+
+.list-group-item-addcomment{
+	text-align: right;
+
+}
+
+
+.search-button{
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: right;
+}

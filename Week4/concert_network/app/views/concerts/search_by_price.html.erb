@@ -1,0 +1,22 @@
+<div class='container'>
+	<div class= 'row'>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+   					<h3 class="panel-title">Search by price: </h3>
+   				</div>
+   				<div class="panel-body panel-search">
+   				<form action="/concerts/search_by_price/" method="POST">
+  					<input type="number" name="price" required><br>
+ 					<button type="submit">Search!</button>
+ 				</form>
+ 				</div>
+  			</div>
+  		</div>
+  	</div>
+</div>
+<% if @results %>
+<p><%= @results %></p>
+<% end %>
+
+
